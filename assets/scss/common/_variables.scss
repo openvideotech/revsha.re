@@ -18,12 +18,14 @@ $beige:    #fbf7f0;
 // $red:      #e55235;
 $purple:   #5d2f86;
 $brown:    #aa9c84;
+$green:    #a8c598;
 
 $blue-300: #8ed6fb;
+$blue-500: #3eacac;
 $pink-100: #fcfaff;
 $pink-500: #d32e9d;
-
-$primary: $purple;
+$secondary:#8ed6fb;
+$primary:  #88a777;
 
 $color-btn-bg: $pink-500;
 $color-btn-border: darken($pink-500, 5%);
@@ -69,7 +71,7 @@ $body-color:                $black;
 //
 // Style anchor elements.
 
-$link-color:                              $primary;
+$link-color:                              $blue-500;
 $link-decoration:                         none;
 
 // Grid containers
@@ -119,7 +121,7 @@ $font-size-sm:                $font-size-base * 0.875;
 // $line-height-base:            1.5;
 
 $headings-font-family:        null;
-$headings-font-weight:        700;
+$headings-font-weight:        500;
 
 $lead-font-weight:            400;
 
