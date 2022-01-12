@@ -23,6 +23,18 @@
   url = "/rsl/"
   weight = 15
 
+  [[main]]
+  name = "Cascade"
+  identifier = "cascade"
+  url = "/cascade/"
+  weight = 20
+
+  [[main]]
+  name = "CiviSplit"
+  identifier = "civisplit"
+  url = "/docs/civisplit/intro/"
+  weight = 25
+
 # [[main]]
 #  name = "Blog"
  # url = "/blog/"

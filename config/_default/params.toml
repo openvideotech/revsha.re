@@ -12,8 +12,8 @@ description = "Building an open, community-driven system for precise and reliabl
 ## Open Graph
 images = ["doks.png"]
 ogLocale = "en_US"
-domainTLD = "doks.netlify.app"
-titleHome = "Doks Theme"
+domainTLD = "revsha.re"
+titleHome = "Revenue Share"
 
 ## Twitter Cards
 twitterSite = "@openvideotech"
@@ -54,7 +54,7 @@ lqipWidth = "20x"
 smallLimit = "300"
 
 # Footer
-footer = "powered by <a href=\"https://getdoks.org/\" target=\"_blank\">Doks</a> | an <a href=\"https://openvideo.tech\" target=\"_blank\">OpenVideo.tech</a> project | supported by <a href=\"https://grantfortheweb.org/\" target=\"_blank\">Grant for the Web</a>"
+footer = "powered by <a href=\"https://getdoks.org/\" target=\"_blank\">Doks</a> | an <a href=\"https://openvideo.tech\" target=\"_blank\">OpenVideo.tech</a> project | supported by <a href=\"https://grantfortheweb.org/\" target=\"_blank\">Grant for the Web</a> | AGPL"
 
 # Feed
 copyRight = "Copyright (c) 2021-2022 Open Video Tech"
@@ -71,7 +71,7 @@ repoHost = "GitHub"
 #repoHost = "Gitea"
 docsRepo = "https://github.com/openvideotech/revsha.re"
 docsRepoBranch = "master"
-editPage = false
+editPage = true
 
 [options]
   lazySizes = true
