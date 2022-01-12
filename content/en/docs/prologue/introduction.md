@@ -4,11 +4,11 @@ description: "Doks is a Hugo theme for building secure, fast, and SEO-ready docu
 lead: "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
 date: 2020-10-06T08:48:57+00:00
 lastmod: 2020-10-06T08:48:57+00:00
-draft: false
+draft: true
 images: []
 menu:
   docs:
-    parent: "prologue"
+    parent: ""
 weight: 100
 toc: true
 ---
