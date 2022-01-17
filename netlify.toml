@@ -28,10 +28,3 @@
   port = 8888
   publish = "public"
   autoLaunch = false
-
-[[plugins]]
-package = "netlify-plugin-plausible"
-   [plugins.inputs]
-		PLAUSIBLE__HOST = "plausible.io"
-		PLAUSIBLE__SITE_ID = "revenuesha.re"
-		PLAUSIBLE__SCRIPTS = "hash,outbound-links"
