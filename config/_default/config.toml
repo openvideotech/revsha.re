@@ -1,4 +1,4 @@
-baseurl = "https://revsha.re"
+baseurl = "https://revenuesha.re"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true

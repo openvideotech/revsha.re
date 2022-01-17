@@ -14,4 +14,4 @@ toc: true
 ---
 Feel free to post bugs and issues in our Gitlab here.
 
-You can also chat on our Mattermost here.
+You can also chat on our Mattermost [here](https://matter.openvideo.tech).

@@ -3,7 +3,13 @@
   name = "Revenue Sharing Language"
   weight = 50
   identifier = "rsl"
-  url = "/docs/rsl/"
+  url = "/docs/rsl/intro/"
+
+[[docs]]
+  name = "Cascade"
+  identifier = "cascade"
+  url = "/docs/cascade/intro/"
+  weight = 55
 
 [[docs]]
   name = "CiviSplit"
@@ -13,20 +19,24 @@
 
 [[main]]
   name = "Docs"
-  url = "/docs/rsl/standard-syntax/"
-# url = "/docs/1.0/prologue/introduction/"
+  url = "/docs/rsl/intro/"
   weight = 10
 
   [[main]]
-  name = "Revenue Sharing Language"
+  name = "About"
+  url = "/about"
+  weight = 12
+
+  [[main]]
+  name = "RSL"
   identifier = "rsl"
-  url = "/rsl/"
+  url = "/docs/rsl/intro/"
   weight = 15
 
   [[main]]
   name = "Cascade"
   identifier = "cascade"
-  url = "/cascade/"
+  url = "/docs/cascade/intro/"
   weight = 20
 
   [[main]]
@@ -53,7 +63,7 @@
   url = "https://twitter.com/openvideotech"
   weight = 20
 
-# [[footer]]
-#   name = "Privacy"
-#   url = "/privacy-policy/"
-#   weight = 10
+ [[footer]]
+   name = "Privacy"
+   url = "/privacy-policy"
+   weight = 10

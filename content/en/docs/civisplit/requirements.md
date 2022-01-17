@@ -1,7 +1,7 @@
 ---
 title: "Requirements"
 description: "Requirements to install"
-lead: "CiviSplit is a collection of three CiviCRM extensions to generate, store and process income-sharing agreements, using Revenue Sharing Language."
+lead: ""
 date: 2022-01-12T01:20:13+01:00
 lastmod: 2022-01-12T01:20:13+01:00
 draft: false
