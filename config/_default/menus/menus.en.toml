@@ -20,7 +20,7 @@
 [[main]]
   name = "Docs"
   url = "/docs/rsl/intro/"
-  weight = 10
+  weight = 13
 
   [[main]]
   name = "About"

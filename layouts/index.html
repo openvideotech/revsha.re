@@ -2,55 +2,73 @@
 <section class="section container-fluid mt-n3 pb-3">
   <div class="row justify-content-left">
     <div class="col-lg-12 p-0">
-      <h1 class="mt-0">{{ .Title }}</h1>
+      <h1 class="mt-0">Revenue Sha<span style="color:var(--bs-pink">.</span>re</h1>
     </div>
-    <div class="col-lg-9 col-xl-8 p-0">
+    <div class="col-lg-10 col-xl-10 p-0">
       <p class="lead">{{ .Params.lead | safeHTML }}</p>
-      <a class="btn btn-secondary btn-lg px-4 mb-2" href="/docs/civisplit/intro/" role="button">Get Started</a>
+      <!-- <a class="btn btn-secondary btn-lg px-4 mb-2" href="/docs/civisplit/intro/" role="button">Get Started</a> -->
       <p class="meta"></p>
     </div>
-    <div class="d-none d-md-block">
-      <img src="/images/drew-bae-gIl5b7JPREo-unsplash-sepia.png" alt="cascade waterfall" style="position: absolute; bottom: 0; right: 0; max-height: 90vh; width: auto;" />
+    <div class="d-none d-lg-block">
+      <img src="/images/drew-bae-gIl5b7JPREo-unsplash-sepia.png" alt="cascade waterfall" style="position: absolute; bottom: 0; right: 0; max-height: 90vh; max-width: 40vw; width: auto;" />
     </div>
-
+    <div class="col-lg-8 col-xl-8 p-0">
+    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/667763569?h=34f138de98&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Matthew Wire &amp;ndash; introducing RevenueShare.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+    </div>
   </div>
 </section>
 {{ end }}
 
 {{ define "sidebar-prefooter" }}
   {{ if eq $.Site.Language.LanguageName "English" }}
-<!--  <section class="section section-sm">
-    <div class="container">
-      <div class="row justify-content-center text-center">
-        <div class="col-lg-5">
-          <h2 class="h4">Security aware</h2>
-          <p>Get A+ scores on <a href="https://observatory.mozilla.org/analyze/doks.netlify.app">Mozilla Observatory</a> out of the box. Easily change the default Security Headers to suit your needs.</p>
-        </div>
-        <div class="col-lg-5">
-          <h2 class="h4">Fast by default ⚡️</h2>
-          <p>Get 100 scores on <a href="https://googlechrome.github.io/lighthouse/viewer/?gist=92eaa982d7dbf92f94fe8ecc03987c9a">Google Lighthouse</a> by default. Doks removes unused css, prefetches links, and lazy loads images.</p>
-        </div>
-        <div class="col-lg-5">
-          <h2 class="h4">SEO-ready</h2>
-          <p>Use sensible defaults for structured data, open graph, and Twitter cards. Or easily change the SEO settings to your liking.</p>
-        </div>
+ <section class="section section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <h2 class="h4" style="margin: 0 0 0.5rem;"><span style="margin-left: -1.5rem;color: var(--bs-pink);">1. </span>A drag-n-drop builder to make multi-step revenue sharing plans…</h2>
+        <p>Supporting Pari Passu and Pro Rata payouts, any currency, caps & loops.</p>
       </div>
-      <div class="row justify-content-center text-center">
-        <div class="col-lg-5">
-          <h2 class="h4">Full text search</h2>
-          <p>Search your Doks site with FlexSearch. Easily customize index settings and search options to your liking.</p>
-        </div>
-        <div class="col-lg-5">
-          <h2 class="h4">Page layouts</h2>
-          <p>Build pages with a landing page, blog, or documentation layout. Add custom sections and components to suit your needs.</p>
-        </div>
-        <div class="col-lg-5">
-          <h2 class="h4">Dark mode</h2>
-          <p>Switch to a low-light UI with the click of a button. Change colors with variables to match your branding.</p>
-        </div>
+      <div class="col-lg-4">
+        <h2 class="h4" style="margin: 0 0 0.5rem;"><span style="margin-left: -1.95rem;color: var(--bs-pink);">2. </span>Saved in a human and machine readable, sharable format, RSL…</h2>
+        <p>Using Revenue Sharing Language (RSL) as a hashable YAML-subtype.</p>
+      </div>
+      <div class="col-lg-4">
+        <h2 class="h4" style="margin: 0 0 0.5rem;"><span style="margin-left: -1.9rem;color: var(--bs-pink);">3. </span>Plan income collected at a sub-account, payouts calculated and made.</h2>
+        <p>A suite of CiviCRM extensions to manage, track & process settlements.</p>
       </div>
     </div>
-  </section>-->
+  </div>
+  <!-- <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <h2 class="h4">1. Multi-step pro-rata & pari-passu revenue sharing…</h2>
+        <p>Supporting a succession of fixed and percentage payouts from a specific payee address.</p>
+      </div>
+      <div class="col-lg-4">
+        <h2 class="h4">2. Agreements stored in a human and machine readable syntax…</h2>
+        <p>Revenue Sharing Language (RSL) is a YAML-subtype describing multi-step, multi-payee revenue plans.</p>
+      </div>
+      <div class="col-lg-4">
+        <h2 class="h4">3. Created through a drag-and-drop user-friendly Javascript app…</h2>
+        <p>RSL agreements are built through an intuitive builder, Cascade, available as native-JS and Svelte.js.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4">
+        <h2 class="h4">4. Stored with its SHA-hash signature to prevent future changes…</h2>
+        <p>RSL agreements form the basis for payouts, so once securely hashed prevent future changes.</p>
+      </div>
+      <div class="col-lg-4">
+        <h2 class="h4">5. Collecting income at a unique sub-account/ILP for the agreement…</h2>
+        <p>Each agreement has it's own sub-account and payment address (currently Uphold only).</p>
+      </div>
+      <div class="col-lg-4">
+        <h2 class="h4">6. To calculate & make payouts in CiviCRM (over ½ of world's websites).</h2>
+        <p>CiviSplit extensions manage agreements, payees and payments with notifications and reporting.</p>
+      </div>
+    </div>
+  </div> -->
+  </section>
   {{ end }}
 {{ end }}
 

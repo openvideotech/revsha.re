@@ -22,7 +22,7 @@ After installing a CMS following the instructions on their site, you will need t
 - WordPress - [docs.civicrm.org/installation/wordpress](https://docs.civicrm.org/installation/en/latest/wordpress/)
 
 ### Important note
-CiviCRM is a large multi-function CRM with higher server requirements than many hosts offer, and a slower upgrade process than many CMS extensions. You're effectively installing volunteer-built version of Salesforce onto your website, so requires time and technical confidence to setup and maintain (although you don't need to be a coder). If you don't feel confident, contact one of the developers listed [here](https://civicrm.org/experts).
+CiviCRM is a large multi-function CRM with higher server requirements than many hosts offer, and a slower upgrade process than most CMS extensions. You are effectively installing a non-profit version of Salesforce onto your website, which requires time and technical confidence to setup and maintain (although you don't need to be a coder). If you don't feel confident, you could contact one of the CiviCRM partners listed [here](https://civicrm.org/experts).
 
 ## Install the extensions
 Manually download and install the following three extensions, using the CiviCRM [extensions installer guide](https://docs.civicrm.org/sysadmin/en/latest/customize/extensions/#installing-a-new-extension) for manual installation (the location of the extensions folder willl vary with each CMS)
