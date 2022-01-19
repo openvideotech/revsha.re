@@ -32,4 +32,4 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    Content-Security-Policy = "script-src 'self' plausible.io; img-src 'self' openvideo.tech;"
+    Content-Security-Policy = "script-src 'self' player.vimeo.com plausible.io; img-src 'self' openvideo.tech;"
