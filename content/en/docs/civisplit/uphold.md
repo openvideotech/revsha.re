@@ -15,10 +15,10 @@ toc: true
 
 ## Current Uphold integrations
 The CiviSplit Uphold extension handles several integration functions with Uphold:
-- create a new sub-account for each [RSL](/docs/rsl/intro/) agreement (Uphold calls these sub-accounts Cards)
+- create a new sub-account for each [RSL](/docs/rsl/intro/) agreement (Uphold calls sub-accounts 'Cards').
 - return an ILP address (aka [payment pointer](https://paymentpointers.org)) for that Card/Agreement. 
-- if you already have an ILP address for an Uphold Card, you can enter this in the RSL and it should find the correct card ID
-- check the current balance
+- if you already have an ILP address for an Uphold Card, you can enter this in the RSL and it should find the correct card ID.
+- check the current balance.
 - **Coming April 2022:** make payouts to Uphold users, based on a user ID saved in the Civi contact record (see below).
 
 ## Get an Uphold API key
