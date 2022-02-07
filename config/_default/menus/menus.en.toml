@@ -19,8 +19,9 @@
 
 [[main]]
   name = "Docs"
+  identifier = "docs-intro"
   url = "/docs/rsl/intro/"
-  weight = 13
+ weight = 13
 
   [[main]]
   name = "About"
@@ -29,19 +30,19 @@
 
   [[main]]
   name = "RSL"
-  identifier = "rsl"
+  identifier = "rsl-intro"
   url = "/docs/rsl/intro/"
   weight = 15
 
   [[main]]
   name = "Cascade"
-  identifier = "cascade"
+  identifier = "cascade-intro"
   url = "/docs/cascade/intro/"
   weight = 20
 
   [[main]]
   name = "CiviSplit"
-  identifier = "civisplit"
+  identifier = "civisplit-intro"
   url = "/docs/civisplit/intro/"
   weight = 25
 

@@ -1,5 +1,5 @@
 ---
-title: "What is it?"
+title: "Intro"
 description: "CiviSplit is a collection of three CiviCRM extensions to generate, store and process income-sharing agreements, using Revenue Sharing Language (RSL)"
 lead: "CiviSplit is a collection of three CiviCRM extensions to generate, store and process income-sharing agreements, using Revenue Sharing Language."
 date: 2022-01-12T01:20:13+01:00
@@ -9,9 +9,11 @@ images: []
 menu: 
   docs:
     parent: "civisplit"
-weight: 10
+weight: 11
+identifier: civisplit-intro
 toc: true
 ---
+
 [Revenue Sharing Language (RSL)](/docs/rsl/) agreements are implemented across three CiviCRM extensions:
  - **CiviSplit Agreement Builder** - extension to create, save and generate income sharing agreements.
  - **CiviSplit Processor** - extension to calculate and process amounts owed to different process

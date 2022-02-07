@@ -1,5 +1,5 @@
 ---
-title: "What is it?"
+title: "Cascade"
 description: "A Revenue Sharing Language agreement generator."
 lead: "A Revenue Sharing Language agreement generator."
 date: 2022-01-12T01:20:13+01:00

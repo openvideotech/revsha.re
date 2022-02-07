@@ -13,7 +13,8 @@ weight: 30
 toc: true
 ---
 
-## Current Uphold integrations
+## Current Uphold API functions
+
 The CiviSplit Uphold extension handles several integration functions with Uphold:
 - create a new sub-account for each [RSL](/docs/rsl/intro/) agreement (Uphold calls sub-accounts 'Cards').
 - return an ILP address (aka [payment pointer](https://paymentpointers.org)) for that Card/Agreement. 

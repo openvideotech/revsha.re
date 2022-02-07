@@ -1,19 +1,15 @@
 {{ define "main" }}
 <section class="section container-fluid mt-n3 pb-3">
   <div class="row justify-content-left">
-    <div class="col-lg-12 p-0">
-      <h1 class="mt-0">Revenue Sha<span style="color:var(--bs-pink">.</span>re</h1>
+    <div class="col-lg-12 p-0 gy-5">
+      <h2 class="mt-0 h3" style="font-weight: 400;"><span class="pink">Automatic</span> royalty payouts
+      for the <span class="dark-blue">micropayment</span> era</h2>
     </div>
     <div class="col-lg-10 col-xl-10 p-0">
       <p class="lead">{{ .Params.lead | safeHTML }}</p>
-      <!-- <a class="btn btn-secondary btn-lg px-4 mb-2" href="/docs/civisplit/intro/" role="button">Get Started</a> -->
-      <p class="meta"></p>
     </div>
     <div class="d-none d-lg-block">
-      <img src="/images/drew-bae-gIl5b7JPREo-unsplash-sepia.png" alt="cascade waterfall" style="position: absolute; bottom: 0; right: 0; max-height: 90vh; max-width: 40vw; width: auto;" />
-    </div>
-    <div class="col-lg-8 col-xl-8 p-0">
-    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/667763569?h=34f138de98&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Matthew Wire &amp;ndash; introducing RevenueShare.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+      <img src="/images/RevenueShareDivisions.jpg" alt="cascade waterfall" style="position: absolute; bottom: 0; right: 0; max-height: 80vh; max-width: 50vw; width: auto; z-index: -50;" />
     </div>
   </div>
 </section>
@@ -23,56 +19,38 @@
   {{ if eq $.Site.Language.LanguageName "English" }}
  <section class="section section-sm">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-4">
-        <h2 class="h4" style="margin: 0 0 0.5rem;"><span style="margin-left: -1.5rem;color: var(--bs-pink);">1. </span>A drag-n-drop builder to make multi-step revenue sharing plans…</h2>
-        <p>Supporting Pari Passu and Pro Rata payouts, any currency, caps & loops.</p>
+    <div class="row gy-5">
+      <div class="col-lg-4  offset-lg-1 p-3 ">
+        <h2 class="h4 lighter" style="margin: 0 0 0.5rem;"><span style="margin-left: -1.95rem" class="pink">1. </span>A <a href="/docs/cascade/intro/">drag-n-drop builder</a> to make multi-step revenue sharing plans…</h2>
+        <!--<p>Supporting Pari Passu and Pro Rata payouts, any currency, caps & loops.</p>-->
       </div>
-      <div class="col-lg-4">
-        <h2 class="h4" style="margin: 0 0 0.5rem;"><span style="margin-left: -1.95rem;color: var(--bs-pink);">2. </span>Saved in a human and machine readable, sharable format, RSL…</h2>
-        <p>Using Revenue Sharing Language (RSL) as a hashable YAML-subtype.</p>
+    </div>
+    <div class="row gy-5">
+      <div class="col-lg-4 offset-lg-2 p-3 ">
+        <h2 class="h4 lighter" style="margin: 0 0 0.5rem;"><span style="margin-left: -1.95rem" class="pink">2. </span>Saved in a new human and machine readable <a href="/docs/rsl/intro/">Revenue Sharing Language</a>…</h2>
+        <!--<p>Using Revenue Sharing Language (RSL) as a hashable YAML-subtype.</p>-->
       </div>
-      <div class="col-lg-4">
-        <h2 class="h4" style="margin: 0 0 0.5rem;"><span style="margin-left: -1.9rem;color: var(--bs-pink);">3. </span>Income is collected at a sub-account, payouts calculated & made.</h2>
-        <p>A suite of <a href="https://civicrm.org" target="_blank">CiviCRM</a> extensions to manage, track & process settlements.</p>
+    </div>
+    <div class="row gy-5">
+      <div class="col-lg-4 offset-lg-3 p-3 ">
+        <h2 class="h4 lighter" style="margin: 0 0 0.5rem;"><span style="margin-left: -1.95rem" class="pink">3. </span>Income collected at a sub-account, payouts processed by new <a href="/docs/civisplit/intro/">CiviCRM extensions.</a></h2>
+        <!--<p>A suite of <a href="https://civicrm.org" target="_blank">CiviCRM</a> extensions to manage, track & process settlements.</p>-->
       </div>
+    </div>
+    <div class="row gy-5">
+      <div class="col-lg-4 offset-lg-4 p-3 ">
+        <a class="btn btn-secondary btn-lg px-4 mb-2" href="https://crm.openvideo.tech/revenueshare" target="_blank" role="button">Join beta waitlist</a><br />or <a href="/docs/civisplit/requirements/">self-install</a>
+      </div>
+    </div>
     </div>
   </div>
-  <!-- <div class="container">
-    <div class="row">
-      <div class="col-lg-4">
-        <h2 class="h4">1. Multi-step pro-rata & pari-passu revenue sharing…</h2>
-        <p>Supporting a succession of fixed and percentage payouts from a specific payee address.</p>
-      </div>
-      <div class="col-lg-4">
-        <h2 class="h4">2. Agreements stored in a human and machine readable syntax…</h2>
-        <p>Revenue Sharing Language (RSL) is a YAML-subtype describing multi-step, multi-payee revenue plans.</p>
-      </div>
-      <div class="col-lg-4">
-        <h2 class="h4">3. Created through a drag-and-drop user-friendly Javascript app…</h2>
-        <p>RSL agreements are built through an intuitive builder, Cascade, available as native-JS and Svelte.js.</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-4">
-        <h2 class="h4">4. Stored with its SHA-hash signature to prevent future changes…</h2>
-        <p>RSL agreements form the basis for payouts, so once securely hashed prevent future changes.</p>
-      </div>
-      <div class="col-lg-4">
-        <h2 class="h4">5. Collecting income at a unique sub-account/ILP for the agreement…</h2>
-        <p>Each agreement has it's own sub-account and payment address (currently Uphold only).</p>
-      </div>
-      <div class="col-lg-4">
-        <h2 class="h4">6. To calculate & make payouts in CiviCRM (over ½ of world's websites).</h2>
-        <p>CiviSplit extensions manage agreements, payees and payments with notifications and reporting.</p>
-      </div>
-    </div>
-  </div> -->
+  
   </section>
   {{ end }}
 {{ end }}
 
 {{ define "sidebar-footer" }}
+<br />
 <section class="section section-sm container-fluid">
   <div class="row justify-content-center text-center">
     <div class="col-lg-9">
