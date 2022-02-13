@@ -17,11 +17,11 @@
   identifier = "civisplit"
   url = "/docs/civisplit/"
 
-[[main]]
-  name = "Docs"
-  identifier = "docs-intro"
-  url = "/docs/rsl/intro/"
- weight = 13
+#[[main]]
+#  name = "Docs"
+#  identifier = "docs-intro"
+#  url = "/docs/rsl/intro/"
+#  weight = 13
 
   [[main]]
   name = "About"
@@ -29,7 +29,7 @@
   weight = 12
 
   [[main]]
-  name = "RSL"
+  name = "Revenue Sharing Language"
   identifier = "rsl-intro"
   url = "/docs/rsl/intro/"
   weight = 15
@@ -48,8 +48,8 @@
 
 # [[main]]
 #  name = "Blog"
- # url = "/blog/"
- # weight = 20
+#  url = "/blog/"
+#  weight = 20
 
 [[social]]
   name = "GitHub"
