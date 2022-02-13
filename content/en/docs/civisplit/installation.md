@@ -36,7 +36,14 @@ Minimum extension required to generate and save RSL agreements. Download from [l
 Required in addition to calculate payouts (for offline payment): [lab.openvideo.tech/civisplit/processor](https://lab.openvideo.tech/civisplit/processor)
 
 ### CiviSplit Uphold Payments
-Required in addition to process payouts and get a balance from Uphold: [lab.openvideo.tech/civisplit/uphold](https://lab.openvideo.tech/civisplit/uphold)
+Required in addition to process payouts and get a balance from Uphold: [lab.openvideo.tech/civisplit/uphold](https://lab.openvideo.tech/civisplit/uphold).
+
+In addition to requiring an API key from Uphold, you need to install a number of extra dependencies such as the Uphold SDK. You can install by running the following command from the `civisplit-uphold` directoryy:
+
+  `composer install`
+
+This requires you to have Composer running on your server, which is a dependency manager for PHP used widely in Drupal 9+ ([more info](https://getcomposer.org/)).
+
 
  
 ## After installation

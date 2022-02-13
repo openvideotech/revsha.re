@@ -16,6 +16,10 @@ We do this thru three layers:
     - *Processor* calculates who is owed what, and could be used for manual entry and integration with other systems/extensions. 
     - *Uphold* is the payment processor integration with Uphold to create a dedicated payee account, generate a custom ILP address, check balances and make payouts to payees. 
 
+You can see these in action below in a presentation, by Matthew Wire:
+
+{{< vimeo id="667763569" title="Demo of CiviSplit" >}}
+
 ## In other words
 1. **Multi-step pro-rata & pari-passu revenue sharing…** <br />Supporting a succession of fixed and percentage payouts from a specific payee address.
 2. **Agreements stored in a human and machine readable syntax…** <br />Revenue Sharing Language (RSL) is a YAML-subtype describing multi-step, multi-payee revenue plans.
