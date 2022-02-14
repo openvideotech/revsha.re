@@ -12,6 +12,14 @@ menu:
 weight: 10
 toc: true
 ---
-There are two implementations of the [Cascade design](https://openvideo.tech/cascade/) for building a multi-step, multi-payee [RSL](/rsl/) based-agreement:
- - **Cascade Native** – minimal and framework free, built by [Mark Boas](http://maboa.co/): [github.com/openvideotech/cascade](https://github.com/openvideotech/cascade) ([demo](https://openvideo.tech/cascade/))
- - **Cascade Svelte** – realtime responsive, building on this, compiled in [Svelte](https://svelte.dev/), with unit tests, by [Rich Lott](https://artfulrobot.uk)
+There are threee implementations of the [Cascade design](https://openvideo.tech/cascade/) for building a multi-step, multi-payee [RSL](/rsl/) based-agreement:
+ 
+## Cascade Native
+Minimal and framework-free, built by [Mark Boas](http://maboa.co/). 
+- [github.com/openvideotech/cascade-native](https://github.com/openvideotech/cascade-native) ([demo](https://openvideo.tech/cascade/)).
+
+## Cascade Svelte (standalone & Civi native)
+
+Realtime responsive (ie RSL generates as you type), building on this, compiled in [Svelte](https://svelte.dev/), with unit tests, by [Rich Lott](https://artfulrobot.uk). It compiles to two versions for CiviCRM and for standalone. 
+
+- [github.com/openvideotech/cascade-svelte](https://github.com/openvideotech/cascade-svelte)

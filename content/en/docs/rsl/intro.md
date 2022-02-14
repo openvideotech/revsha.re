@@ -19,7 +19,7 @@ Revenue Sharing Language (RSL) is proposed as a common set of instructions that 
 
 One of the key benefits of a human and machine readable contract is that a cryptographic [SHA hash](https://en.wikipedia.org/wiki/SHA-1) can be generated from it, which would alter if the agreement changes. This can act as a check against changes - or 'Hollywood accounting'. In this way, a system using the machine instructions from such a contract as the basis for royalty or revenue-share payouts can be sure that it's the same agreement as the one originally agreed to. But this is why machine-readable isn't sufficient - non-developer humans should be able to read the agreement and understand its principles. For this reason [YAML](https://yaml.org/) was chosen over JSON because, while YAML has limitations, it is more easily readable by non-developers.
 
-RSL forms the basis of the Javascript libraries Cascade, Waterfall and the CiviCRM extension suite for Backdrop, Drupal, Joomla! and WordPress, CiviSplit.
+RSL forms the basis of the Javascript libraries Cascade, Waterfall and the CiviCRM extension suite for Backdrop, Drupal, Joomla! and WordPress, CiviSplit. The latest version is available at [github.com/openvideotech/rsl](https://github.com/openvideotech/rsl).
 
 The syntax has two levels:
  - **a Standard Syntax**, to describe a potentially unlimited series of steps of fixed, percentage or ratio splits, which can loop by both time period or per transaction. This has been implemented in three projects.
