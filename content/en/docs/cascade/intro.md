@@ -18,7 +18,7 @@ There are threee implementations of the [Cascade design](https://openvideo.tech/
 Minimal and framework-free, built by [Mark Boas](http://maboa.co/). 
 - [github.com/openvideotech/cascade-native](https://github.com/openvideotech/cascade-native) ([demo](https://openvideo.tech/cascade/)).
 
-## Cascade Svelte (standalone & Civi native)
+## Cascade Svelte (standalone & civi)
 
 Realtime responsive (ie RSL generates as you type), building on this, compiled in [Svelte](https://svelte.dev/), with unit tests, by [Rich Lott](https://artfulrobot.uk). It compiles to two versions for CiviCRM and for standalone. 
 
