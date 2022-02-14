@@ -9,11 +9,11 @@ images: []
 ---
 
 We do this thru three layers:
- - **Revenue Sharing Language (RSL):** a new YAML-subtytpe syntax to describe Revenue Sharing agreements in a human and machine readable way.
- - **Cascade:** a drag and drop interface to create RSL agreements. There are both framework-free native-JS and a Svelte-JS version.
- - **CiviSplit:** a suite of three CiviCRM extensions to save, process and payout RSL agreements:
-    - *Agreement Builder* integrates Cascade, with save/edit, Civi contact lookup, reporting, viewing and fixing agreements. 
-    - *Processor* calculates who is owed what, and could be used for manual entry and integration with other systems/extensions. 
+ - **[Revenue Sharing Language (RSL):](https://github.com/openvideotech/rsl)** a new YAML-subtytpe syntax to describe Revenue Sharing plans in a human and machine readable way.
+ - **[Cascade:](https://github.com/openvideotech/cascade-svelte)** a drag and drop interface to create RSL agreements. There are both framework-free [native-JS](https://github.com/openvideotech/cascade-native) and a [Svelte-JS](https://github.com/openvideotech/cascade-svelte) version.
+ - **[CiviSplit:](https://lab.openvideo.tech/civisplit)** a suite of three CiviCRM extensions to save, process and payout RSL agreements:
+    - *[Agreement Builder](https://lab.openvideo.tech/civisplit/agreement-builder)* integrates Cascade, with save/edit, Civi contact lookup, reporting, viewing and fixing agreements. 
+    - *[Processor](https://lab.openvideo.tech/civisplit/processor)* calculates who is owed what, and could be used for manual entry and integration with other systems/extensions. 
     - *Uphold* is the payment processor integration with Uphold to create a dedicated payee account, generate a custom ILP address, check balances and make payouts to payees. 
 
 You can see these in action below in a presentation, by Matthew Wire taken from the December 2021 [Grant for the Web skillshare](https://community.webmonetization.org/grantfortheweb/join-us-december-15th-grant-for-the-web-skill-share-with-awardee-nic-wistreich-of-mova-dlg):
@@ -44,5 +44,5 @@ And thanks to [Dave Boyle](https://communityshares.co.uk/about-us-dave-boyle/) o
 ## Links
 
 - [matter.openvide.tech](https://matter.openvide.tech) – Mattermost chat space
-- [lab.openvideo.tech](https://gitlab.openvideo.tech) – Gitlab & issues
-- [github.com/openvideotech](https://github.com/openvideotech) – Github for distributions
+- [lab.openvideo.tech](https://lab.openvideo.tech/civisplit) – Gitlab & issues
+- [github.com/openvideotech](https://github.com/openvideotech) – Github
