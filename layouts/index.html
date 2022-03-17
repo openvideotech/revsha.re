@@ -1,50 +1,49 @@
 {{ define "main" }}
 <section class="section container-fluid mt-n3 pb-3">
   <div class="row justify-content-left">
-    <div class="col-lg-12 p-0 gy-5">
-      <h2 class="mt-0 h3" style="font-weight: 400;"><span class="pink">Automatic</span> royalty payouts
-      for the <span class="dark-blue">micropayment</span> era</h2>
+    <div class="col-lg-12 p-0 gy-3">
+      <h2 class="mt-0 h3" style="font-weight: 400;">An <span class="pink">open</span> way to structure, set and <span class="dark-blue">pay out</span> royalties, deferrals and profit-shares</h2>
     </div>
     <div class="col-lg-10 col-xl-10 p-0">
       <p class="lead">{{ .Params.lead | safeHTML }}</p>
+      <a class="btn btn-secondary btn-lg px-4 mb-2" href="/about/" target="_blank" role="button">Learn more</a> &nbsp; or <a href="https://crm.openvideo.tech/mailing-list" target="_blank">join mailing list</a>
     </div>
-    <div class="d-none d-lg-block">
-      <img src="/images/RevenueShareDivisions.jpg" alt="cascade waterfall" style="position: absolute; bottom: 0; right: 0; max-height: 80vh; max-width: 50vw; width: auto; z-index: -50;" />
-    </div>
+    
   </div>
 </section>
 {{ end }}
 
 {{ define "sidebar-prefooter" }}
   {{ if eq $.Site.Language.LanguageName "English" }}
- <section class="section section-sm">
+<section class="section section-md">
   <div class="container">
-    <div class="row gy-5">
-      <div class="col-lg-4  offset-lg-1 p-3 ">
-        <h2 class="h4 lighter" style="margin: 0 0 0.5rem;"><span style="margin-left: -1.95rem" class="pink">1. </span>A <a href="/docs/cascade/intro/">drag-n-drop builder</a> to make multi-step revenue sharing plans…</h2>
-        <!--<p>Supporting Pari Passu and Pro Rata payouts, any currency, caps & loops.</p>-->
+    <div class="row">
+      <div class="col-md-5 x-3">
+        <img src="https://openvideo.tech/wp-content/themes/yootheme/cache/revshare-builder-55a183be.png" alt="Cascade builder" style="width: 100%;" />
+      </div>
+      <div class="col-md-5 x-3">
+        <img src="https://openvideo.tech/wp-content/themes/yootheme/cache/RSL2-47d19b3f.png" alt="Cascade builder" style="width: 100%;" />
+      </div>
+      <div class="col-md-5 x-3">
+        <img src="https://openvideo.tech/wp-content/themes/yootheme/cache/revshare-report-dc0ab4b5.png" alt="Cascade builder" style="width: 100%;" />
       </div>
     </div>
-    <div class="row gy-5">
-      <div class="col-lg-4 offset-lg-2 p-3 ">
-        <h2 class="h4 lighter" style="margin: 0 0 0.5rem;"><span style="margin-left: -1.95rem" class="pink">2. </span>Saved in a new human and machine readable <a href="/docs/rsl/intro/">Revenue Sharing Language</a>…</h2>
-        <!--<p>Using Revenue Sharing Language (RSL) as a hashable YAML-subtype.</p>-->
+    <div class="row">
+      <div class="col-md-5 x-3">
+        <h2 class="h4 lighter"><span class="pink">1. </span>A <a href="/docs/cascade/intro/">drag-n-drop builder</a> to make multi-step revenue sharing plans…</h2>
+        <p>Supporting Pari Passu and Pro Rata payouts, any currency, caps & loops.</p>
       </div>
-    </div>
-    <div class="row gy-5">
-      <div class="col-lg-4 offset-lg-3 p-3 ">
-        <h2 class="h4 lighter" style="margin: 0 0 0.5rem;"><span style="margin-left: -1.95rem" class="pink">3. </span>Income collected at a sub-account, payouts processed by new <a href="/docs/civisplit/intro/">CiviCRM extensions.</a></h2>
-        <!--<p>A suite of <a href="https://civicrm.org" target="_blank">CiviCRM</a> extensions to manage, track & process settlements.</p>-->
+      <div class="col-md-5 x-3">
+        <h2 class="h4 lighter"><span class="pink">2. </span>Saved in a new human and machine readable <a href="/docs/rsl/intro/">Revenue Sharing Language</a>…</h2>
+        <p>A hashable YAML-subtype to build 'Ricardian contracts'.</p>
       </div>
-    </div>
-    <div class="row gy-5">
-      <div class="col-lg-4 offset-lg-4 p-3 ">
-        <a class="btn btn-secondary btn-lg px-4 mb-2" href="/about/" target="_blank" role="button">Learn more</a><br />or <a href="https://crm.openvideo.tech/mailing-list" target="_blank">join mailing list</a>
+      <div class="col-md-5 x-3">
+        <h2 class="h4 lighter"><span class="pink">3. </span>Income collected at a dedicated sub-account. Balance checked, payouts calculated and made.</h2>
+        <p>A suite of <a href="/docs/civisplit/intro/">CiviCRM</a> extensions to manage, process, track, and report payouts.</p>
       </div>
     </div>
     </div>
   </div>
-  
   </section>
   {{ end }}
 {{ end }}

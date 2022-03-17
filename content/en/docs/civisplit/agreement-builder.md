@@ -46,7 +46,7 @@ Fixed payments are paid out 'Pari Passu' which means all parties are paid the sa
 
 If you want to repay fixed amounts pro-rata (ie in the above example paying Anja twice as much as Björn until both parties are fully repaid), then you should use a percentage split with a Cap. So you would set a cap of $30 and a ratio of Anja 2; Björn 1.
 
-### Payees
+### Payees 
 
 **First create CiviCRM contact records**
 
