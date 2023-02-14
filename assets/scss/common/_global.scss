@@ -359,8 +359,10 @@ body {
     }
     .tagline {
       text-align: center;
-      max-width: calc(100% - 10rem);
+      width: calc(100% - 10rem);
+      max-width: 900px;
       @media (max-width: 768px) { 
+        width: 100%;
         max-width: 100%;
       }
     }
