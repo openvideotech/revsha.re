@@ -1,60 +1,88 @@
 {{ define "main" }}
-<section class="section container-fluid mt-n3 pb-3">
-  <div class="row justify-content-left">
-    <div class="col-lg-12 p-0 gy-3">
-      <h2 class="mt-0 h3" style="font-weight: 400;">An <span class="pink">open</span> way to structure, set and <span class="dark-blue">pay out</span> royalties, deferrals and profit-shares</h2>
+<section class="centre-flow">
+  <img src="RevShareLogo.png" class="logo" alt="logo Revenue Share - written Rev Share as one word with a small pie chart after Sha">
+  <img src="Cake.jpg" class="cake" alt="a large cake in bright pin, orange and yellow with a slice cut out" />
+  <h1 class="tagline">Complex income  splits made easy, open and automated.</h1>
+  <img src="ThreeDots.png" class="image-break" alt="three decorative coloured dots" />
+</section>
+<section class="centre-flow">
+  <div class="container">
+    <div class="row blue">
+      <div class="col-md left">
+        <p class="lead">
+          <a href="/docs/rsl/intro/"><strong>Revenue Sharing Language (RSL)</strong></a> is a new, simple syntax to describe almost any kind of revenue split. RSL is a human- and machine- readable contract language, and can describe profit-shares through to multi-step pari-passu and pro-rata recoupment agreements. <a href="/docs/rsl/intro/">Learn more</a>
+        </p>
+      </div>
+      <div class="col-md right">
+        <img class="square-shadow" src="https://openvideo.tech/wp-content/uploads/2022/02/RSL2.png" alt="example RSL agreement">
+      </div>
     </div>
-    <div class="col-lg-10 col-xl-10 p-0">
-      <p class="lead">{{ .Params.lead | safeHTML }}</p>
-      <a class="btn btn-secondary btn-lg px-4 mb-2" href="/about/" target="_blank" role="button">Learn more</a> &nbsp; or <a href="https://crm.openvideo.tech/mailing-list" target="_blank">join mailing list</a>
+    <div class="row red">
+      <div class="col-md left">
+        <img class="square-shadow" src="https://openvideo.tech/wp-content/uploads/2022/02/revshare-builder.png" alt="screengrab of Cascade app in action">
+      </div>
+      <div class="col-md right">
+        <p class="lead">
+          <a href="/docs/cascade/intro/"><strong>Cascade</strong></a> is a Javascript drag-and-drop builder to generate accurate multi-step RSL agreements. Cascade output supports all global currency position and decimal variations. <a href="/docs/cascade/intro/">Learn more</a>
+        </p>
+      </div>
     </div>
+    <div class="row yellow">
+      <div class="col-md left">
+        <p class="lead">
+          <a href="/docs/civisplit/intro/"><strong>CiviSplit</strong></a> is a beta suite of CiviCRM extensions using Cascade and ILP to draft & lock agreements, setup a wallet with a payment provider, check balances, calculate & make royalty/recoupment/ dividend payouts and report. <a href="/docs/civisplit/intro/">Learn more</a>
+        </p>
+      </div>
+      <div class="col-md right">
+        <img class="square-shadow" src="https://openvideo.tech/wp-content/uploads/2022/02/revshare-report.png" alt="screengrab of reporting in CiviSplit">
+      </div>
+    </div>
+  </div>
+<img src="ThreeDots.png" class="image-break" alt="three decorative coloured dots" />
+</section>
+<section class="full-width">
+  <div class="lrborder">
+      <div class="row">
+        <div class="col-md blue">
+          <img src="Interledger-Summit.jpg" alt="person on stage with a screen behind filled with studio logos"/>  
+          <h2>Introducing <strong>Revenue Sharing Language 1.0</strong></h2>
+          <p>In October 2022, Nicol went to New Orleans to introduce Revenue Sharing Language <a href="https://github.com/openvideotech/rsl" target="_blank">v1.0</a> at the Interledger Summit (video coming soon).</p> 
+        </div>
+        <div class="col-md red">
+          <div style="padding:71.54% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/650322888?h=81e378cfbb&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="CiviSplit Demo"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+          <h2><strong>Cascade</strong> demo</h2>
+          <p>Here we see Cascade generate compliant RSL from custom inputs, using Cascade Svelte. This is shown running inside CiviCRM but could be anywhere.
+        </div>
+        <div class="col-md yellow">
+          <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/667763569?h=34f138de98&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Grant for the Web Skill Share: Introducing CiviSplit"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> 
+          <h2><strong>CiviSplit</strong> walkthru</h2>
+          <p>In this public demo, Matthew creates and saves an RSL agreement, hashes it, then puts fake money in to demonstrate automated revenue sharing and reporting based on the parameters of the RSL he'd made.</p> 
+        </div>
+      </div>
+  </div>
+</section>
+<section class="centre-flow">
+
+  <img src="ThreeDots.png" class="image-break" alt="three decorative coloured dots" />
+</section>
+<section>
+
+  <h2>Built by</h2>
+  <ul>
+  <li><a href="https://netribution.org">Nicol Wistreich</a>: Project direction, RSL author and designer.</li>
+  <li><a href="https://silviaschmidt.org/">Silvia Schmidt</a>: Film and legal counsel.</li>
+  <li><a href="https://artfulrobot.uk">Rich Lott, Artful Robot</a>: Cascade Svelt JS Build, unit tests, developer &amp; structural input.</li>
+  <li><a href="https://www.mjwconsult.co.uk/en/">Matthew Wire, MJW Consulting</a>: CiviSplit extensions build and architecture.</li>
+  <li><a href="https://maboas.co">Mark Boas</a>: Initial Cascade Standalone JS Build.</li>
+  </ul>
+  <div class="float-end">
+    <a class="btn btn-secondary btn-lg px-4 mb-2" href="/about/" target="_blank" role="button">Learn more</a> &nbsp; or <a href="mailto:hello@revsha.re" target="_blank">contact us</a>.   
+  </div>
+  
+<br /><em class="small">cake photo by <a href="https://unsplash.com/@anniespratt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Annie Spratt</a></em>
+  
     
   </div>
 </section>
-{{ end }}
-
-{{ define "sidebar-prefooter" }}
-  {{ if eq $.Site.Language.LanguageName "English" }}
-<section class="section section-md">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-5 x-3">
-        <img src="https://openvideo.tech/wp-content/uploads/2022/02/RSL2.png" alt="Revenue Sharing Language" style="width: 100%;" />
-      </div>
-      <div class="col-md-5 x-3">
-        <img src="https://openvideo.tech/wp-content/uploads/2022/02/revshare-builder.pngg" alt="Cascade builder" style="width: 100%;" />
-      </div>
-      <div class="col-md-5 x-3">
-        <img src="https://openvideo.tech/wp-content/uploads/2022/02/revshare-report.png" alt="Cascade builder" style="width: 100%;" />
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-5 x-3">
-        <h2 class="h4 lighter"><span class="pink">1. </span>A <a href="/docs/cascade/intro/">drag-n-drop builder</a> to make multi-step revenue sharing plans…</h2>
-        <p>Supporting Pari Passu and Pro Rata payouts, any currency, caps & loops.</p>
-      </div>
-      <div class="col-md-5 x-3">
-        <h2 class="h4 lighter"><span class="pink">2. </span>Saved in a new human and machine readable <a href="/docs/rsl/intro/">Revenue Sharing Language</a>…</h2>
-        <p>A hashable YAML-subtype to build 'Ricardian contracts'.</p>
-      </div>
-      <div class="col-md-5 x-3">
-        <h2 class="h4 lighter"><span class="pink">3. </span>Income collected at a dedicated sub-account. Balance checked, payouts calculated and made.</h2>
-        <p>A suite of <a href="/docs/civisplit/intro/">CiviCRM</a> extensions to manage, process, track, and report payouts.</p>
-      </div>
-    </div>
-    </div>
-  </div>
-  </section>
-  {{ end }}
-{{ end }}
-
-{{ define "sidebar-footer" }}
-<br />
-<section class="section section-sm container-fluid">
-  <div class="row justify-content-center text-center">
-    <div class="col-lg-9">
-      {{- .Content -}}
-    </div>
-  </div>
-</section>
+</div>
 {{ end }}
