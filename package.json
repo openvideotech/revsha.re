@@ -53,13 +53,13 @@
     "lazysizes": "^5.3",
     "markdownlint-cli": "^0.41",
     "node-fetch": "^3.0",
-    "mermaid": "^10.0",
+    "mermaid": "^11.9",
     "postcss": "^8.3",
     "postcss-cli": "^11.0",
     "purgecss-whitelister": "^2.4",
     "shx": "^0.3.3",
     "stylelint": "^16.2",
-    "stylelint-config-standard": "^36.0"
+    "stylelint-config-standard": "^38.0"
   },
   "otherDependencies": {
     "hugo": "0.88.1"
